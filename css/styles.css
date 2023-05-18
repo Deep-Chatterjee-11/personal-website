@@ -1,0 +1,111 @@
+body{ 
+    text-align: center;
+}
+
+
+.top-container {
+    background-color: #e4f9f5;
+}
+
+.name{
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+
+    font-weight: 900;
+    margin-top: 200px;
+}
+
+.intro-text {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    
+    padding-bottom: 10px;
+
+    font-weight: 600;
+    text-align: center;
+}
+
+span {
+    text-decoration-line: underline;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.cloud-img{
+    position: absolute;
+    left: 250px;
+    bottom: 200px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 100px;
+}
+
+.circular {
+    border-radius: 50%;
+}
+
+hr {
+    margin-top: 100px;
+    margin-left: 45%;
+
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 10px;
+
+    width: 10%;
+}
+
+.left {
+    float: left;
+}
+
+h3 {
+    color: #11999e;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+
+    gap: 2rem;
+    margin: 100px auto 0 auto;
+    text-align: left
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background-color: #66bfbf;
+    border: 0px;
+
+    height: 2.5rem;
+    border-radius: 50px;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+
+}
